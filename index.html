@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Validator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="card mx-auto" style="max-width: 500px;">
+        <div class="card-header text-center">
+            <h3>Credit Card Validator</h3>
+        </div>
+        <div class="card-body">
+            <form id="cardForm">
+                <div class="mb-3">
+                    <label for="cardNumber" class="form-label">Card Number</label>
+                    <input type="text" id="cardNumber" class="form-control" placeholder="Enter credit card number" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Validate</button>
+                <button type="reset" class="btn btn-secondary w-100 mt-2">Reset</button>
+            </form>
+            <div id="result" class="mt-4"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

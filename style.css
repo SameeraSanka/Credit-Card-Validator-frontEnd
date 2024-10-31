@@ -1,0 +1,13 @@
+body {
+    background-color: #363636;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
